@@ -1,0 +1,31 @@
+
+img {
+
+height: 500px;
+margin: 20px;
+}
+
+.image {
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(50% 5%, 0% 100%, 100% 100%);
+}
+
+.image:hover {
+  clip-path:  polygon(50% 19%, 0 76%, 100% 76%);
+}
+
+.image2 {
+  clip-path: polygon(50% 5%, 0% 100%, 100% 100%);
+}
+
+.image2:hover {
+  clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+#my-img:hover {
+  content: url('easterling.jpg');
+}
+
+#im-not:hover {
+  content: url('troll.jpg')
+}
